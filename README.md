@@ -2,6 +2,8 @@
 
 大气层1.7.1最高支持NX-18.1.0系统。如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
 
+2024.06.19更新Z大的“StatusMonitor.ovl”插件，更新更新极限超频EOS1.3.1。
+
 2024.06.17更新lsp199308编译的atmosphere-1.7.1-master-e85bc4db0-dirty，sigpatch已内置，替换atmosphere/package3，atmosphere/stratosphere.romfs，bootloader/payloads/fusee.bin这三个文件即可。重新显示“更多设置”中的“大气层自动识别（fusee引导）”。
 
 2024.06.14更新Hekate6.2.0-v4汉化版。暂时屏蔽更多设置中的“大气层-自动识别（fusee引导）”，等大佬编译内置sigpatch的大气层1.7.1后再显示该引导项。
