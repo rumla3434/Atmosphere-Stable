@@ -1,4 +1,4 @@
-大气层1.7.1整合包系统稳定版（更新时间：2024.07.24）
+![image](https://github.com/user-attachments/assets/86a2a2d8-3636-43c5-9666-50f7f7129850)大气层1.7.1整合包系统稳定版（更新时间：2024.07.24）
 =====
 
 大气层1.7.1最高支持NX-18.1.0系统。如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
@@ -46,3 +46,5 @@
 2024.01.02更新Z大佬修复的StatusMonitor.ovl插件。
 
 2023.12.31更新Z大佬的Tesla-Menu、超频插件、金手指、Hekate汉化版nyx.bin文件，但没更新Z大佬的StatusMonitor.ovl，因为有字体显示不全的bug，更新DBI.nro--v657。
+
+<img src="https://github.com/rumla3434/Atmosphere-Stable/blob/master/readme.jpg?raw=true" align="center" width="100%" >
