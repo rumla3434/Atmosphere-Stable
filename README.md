@@ -1,9 +1,13 @@
 大气层1.7.1整合包系统稳定版（更新时间：2024.07.24）
 =====
 
+原主页github.com/rumla34作废，改地址为github.com/rumla3434，另一个主页codeberg.org/rumla34不变。
+
 大气层1.7.1最高支持NX-18.1.0系统。如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
 
-2024.07.24更新JKSV.nro--07.18.2024，TegraExplorer.bin--v4.2.0。原主页github.com/rumla34作废，改地址为github.com/rumla3434，另一个主页codeberg.org/rumla34不变。
+2024.08.07更新JKSV.nro--08.06.2024。
+
+2024.07.24更新JKSV.nro--07.18.2024，TegraExplorer.bin--v4.2.0。
 
 2024.07.06更新Z大发布的StatusMonitor.ovl-2024.7.4，更新wiliwili.nro--v1.4.1（相册重进一次wiliwili.nro安装前端搞定升级）。
 
