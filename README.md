@@ -1,10 +1,12 @@
-大气层1.7.1整合包系统稳定版（更新时间：2024.08.07）
+大气层1.7.1整合包系统稳定版（更新时间：2024.10.03）
 =====
 
 原主页github.com/rumla34作废，改地址为github.com/rumla3434，另一个主页codeberg.org/rumla34不变。
 
 大气层1.7.1最高支持NX-18.1.0系统。如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
 
+2024.10.03更新替换Tesla（ovlloader+ovlmenu已同名替换成ultrahand，此次也一样可以覆盖升级，和Tesla一样启动键L+Ddown），更新StatusMonitor.ovl-v1.1.3英文，switchtime.nro--v0.1.5，更新极限超频EOS1.4.4。
+由于替换ultrahand和StatusMonitor.ovl-v1.1.3英文，所以SD卡原config/Tesla-Menu，switch/.overlays/lang/Tesla-Menu，switch/.overlays/lang/StatusMonitor这三个文件夹可删除，不删也没关系。
 2024.08.07更新JKSV.nro--08.06.2024。
 
 2024.07.24更新JKSV.nro--07.18.2024，TegraExplorer.bin--v4.2.0。
