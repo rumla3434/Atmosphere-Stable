@@ -2,7 +2,7 @@
 
 极限超频插件EOS
 
-https://www.tekqart.com/thread-364693-1-1.html
+https://github.com/halop/OC_Toolkit_SC_EOS/releases
 
 https://discord.com/invite/VndKxFg7EE
 
@@ -10,7 +10,9 @@ https://discord.com/invite/VndKxFg7EE
 
 https://github.com/hanai3Bi/Switch-OC-Suite
 
-EOS目前最新1.3.2，EOS含sysclk-200b8_lineon和sys-clk-oc_8_0616两个极限超频插件，加载一样的loader.kip
+EOS之前是1.3.2，EOS含sysclk-200b8_lineon和sys-clk-oc_8_0616两个极限超频插件，加载一样的loader.kip
+
+EOS目前最新1.4.4，EOS只有sys-clk-oc
 
 超频插件是默认掌机不充电下锁GPU频率，但是可以解锁，由于两个极限超频插件编译不一样，所以在config/sys-clk/config.ini中的设置也不一样
 
