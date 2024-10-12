@@ -1,9 +1,17 @@
-大气层1.7.1整合包系统稳定版（更新时间：2024.10.03）
+大气层1.8.0pre整合包系统稳定版（更新时间：2024.10.12）
 =====
 
 原主页github.com/rumla34作废，改地址为github.com/rumla3434，另一个主页codeberg.org/rumla34不变。
 
-大气层1.7.1最高支持NX-18.1.0系统。如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
+大气层1.8.0pre最高支持NX-19.0.0系统。如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
+
+如果你的正版系统没有误升级，还是18.1.0或以下系统，熔断是19或以下的，继续用大气层1.7.1整合包系统稳定版！等atmosphere，hekate，sigpatch三大组件都更新稳定后，再替换大气层1.8.0，daybreak升级系统19.0.0。
+
+此版的大气层整合包其实叫“临时过渡版”，它仅适用于双系统玩家的真实/正版系统已升级到19.0.0且熔断是20的Switch主机，这样可真实系统19.0.0+虚拟系统18.1.0，在虚拟系统等于或低于18.1.0里面玩破解游戏无任何影响。进真实系统暂时不支持fss0引导，可以在Hekate里重启-官方系统，或者关闭虚拟系统后通过大气层自动识别进真实系统19.0.0
+
+由于极限超频插件EOS未更新支持大气层1.8.0pre，如果SD卡上已经有覆盖过朗姆之前发的极限超频插件EOS，建议删除atmosphere/kips/loader.kip后再覆盖这个临时过渡版的大气层1.8.0pre整合包完成升级。
+
+2024.10.12更新atmosphere-1.8.0-prerelease-5717ea6c0（大气层1.8.0预览版），由于hekate和sigpatch未更新，目前只能在Hekate下，用fusee引导（更多-大气层自动识别）进19.0.0系统，然后daybreak降级到18.1.0，才可以通过fss0引导（真实破解系统或者虚拟破解系统）玩破解游戏，大气层原版fusee引导（更多-大气层自动识别）并不支持玩破解游戏。更新Lockpick_RCM.bin--v1.9.13。
 
 2024.10.03更新替换Tesla（ovlloader+ovlmenu已同名替换成ultrahand，此次也一样可以覆盖升级，和Tesla一样启动键L+Ddown），更新StatusMonitor.ovl-v1.1.3英文，switchtime.nro--v0.1.5，更新极限超频EOS1.4.4。
 由于替换ultrahand和StatusMonitor.ovl-v1.1.3英文，所以SD卡原config/Tesla-Menu，switch/.overlays/lang/Tesla-Menu，switch/.overlays/lang/StatusMonitor这三个文件夹可删除，不删也没关系。
