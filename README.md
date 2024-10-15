@@ -6,6 +6,7 @@
 大气层1.8.0pre最高支持NX-19.0.0系统。如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
 
 2024.10.15，更新支持19.0.0万能前端hbmenu.nsp，先删旧的桌面图标再安装新的，更新applet版的tinfoil.nro，进入方式和wiliwili.nro一样。由于极限超频插件EOS未更新支持大气层1.8.0pre，如果SD卡上已经有覆盖过朗姆之前发的极限超频插件EOS，建议删除atmosphere/kips/loader.kip后再覆盖大气层1.8.0pre整合包完成升级。
+
 虽当前大气层1.8.0是prerelease版本，但有新的万能前端hbmenu解决nsp前端软件问题，tinfoil.nro和wiliwili.nro都能正常使用了。所以如果你的正版系统已通过联网误升级到19.0.0且熔断数20。或想升级虚拟系统到19.0.0下去玩最新的破解游戏，都可以把SD卡的大气层文件升级到此版本。
 
 2024.10.13上午，更新内置sigpatch的fusee.bin，更新fss0的patches.ini，恢复显示大气层原版fusee引导，fss0和fusee引导的sigpatch都最高支持19.0.0系统，真实或虚拟破解系统都可以升级19.0.0后玩NSP/XCI等破解游戏，但是暂时不支持前端NSP软件，比如wiliwili解决方法可通过按住R键打开游戏进hbmenu再打开wiliwili.nro，更新StatusMonitor.ovl-v1.1.4。
