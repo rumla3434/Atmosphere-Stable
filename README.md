@@ -1,22 +1,23 @@
-大气层1.8.0pre整合包系统稳定版（更新时间：2024.10.15）
+大气层1.8.0pre整合包系统稳定版（更新时间：2024.10.16）
 =====
 
 原主页github.com/rumla34作废，改地址为github.com/rumla3434，另一个主页codeberg.org/rumla34不变。
 
 大气层1.8.0pre最高支持NX-19.0.0系统。如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
 
-2024.10.15，更新支持19.0.0万能前端hbmenu.nsp，先删旧的桌面图标再安装新的，更新applet版的tinfoil.nro，进入方式和wiliwili.nro一样。由于极限超频插件EOS未更新支持大气层1.8.0pre，如果SD卡上已经有覆盖过朗姆之前发的极限超频插件EOS，建议删除atmosphere/kips/loader.kip后再覆盖大气层1.8.0pre整合包完成升级。
+2024.10.16更新atmosphere-1.8.0-prerelease-c6014b533，更新此版大气层的loader patch（ips和patches.ini），fusee.bin取自gbatemp论坛编译版，支持fusee引导的fs/loader的ips补丁。
 
-虽当前大气层1.8.0是prerelease版本，但有新的万能前端hbmenu解决nsp前端软件问题，tinfoil.nro和wiliwili.nro都能正常使用了。所以如果你的正版系统已通过联网误升级到19.0.0且熔断数20。或想升级虚拟系统到19.0.0下去玩最新的破解游戏，都可以把SD卡的大气层文件升级到此版本。
+虽当前大气层1.8.0是prerelease版本，但有新的万能前端hbmenu解决nsp前端软件问题，tinfoil.nro和wiliwili.nro都能正常使用了。所以如果你的正版系统已通过联网误升级到19.0.0且熔断数20。或想升级虚拟系统到19.0.0下去玩最新的破解游戏，都可以把SD卡的大气层文件升级到此版本。由于极限超频插件EOS未更新支持大气层1.8.0pre，如果SD卡上已经有覆盖过朗姆之前发的极限超频插件EOS，建议删除atmosphere/kips/loader.kip后再覆盖大气层1.8.0pre整合包完成升级。
+
+2024.10.15，更新支持19.0.0万能前端hbmenu.nsp，先删旧的桌面图标再安装新的，更新applet版的tinfoil.nro，进入方式和wiliwili.nro一样。由于极限超频插件EOS未更新支持大气层1.8.0pre，如果SD卡上已经有覆盖过朗姆之前发的极限超频插件EOS，建议删除atmosphere/kips/loader.kip后再覆盖大气层1.8.0pre整合包完成升级。
 
 2024.10.13上午，更新内置sigpatch的fusee.bin，更新fss0的patches.ini，恢复显示大气层原版fusee引导，fss0和fusee引导的sigpatch都最高支持19.0.0系统，真实或虚拟破解系统都可以升级19.0.0后玩NSP/XCI等破解游戏，但是暂时不支持前端NSP软件，比如wiliwili解决方法可通过按住R键打开游戏进hbmenu再打开wiliwili.nro，更新StatusMonitor.ovl-v1.1.4。
 
-2024.10.13凌晨，更新atmosphere-1.8.0-prerelease-5717ea6c0，hekate_ctcaer_6.2.2_Nyx_1.6.4，由于sigpatch最高只能支持SW18.1.0，所以不能在19.0.0系统里玩破解游戏，只能玩正版游戏，要daybreak降级到18.1.0才可以玩破解游戏，暂时屏蔽大气层原版fusee引导（更多-大气层自动识别，大气层1.7.0以后不支持fusee引导玩破解游戏），更新Lockpick_RCM.bin--v1.9.13。由于极限超频插件EOS未更新支持大气层1.8.0pre，如果SD卡上已经有覆盖过朗姆之前发的极限超频插件EOS，建议删除atmosphere/kips/loader.kip后再覆盖这个临时过渡版的大气层1.8.0pre整合包完成升级。2024.10.13的大气层整合包仅适用于双系统玩家的真实/正版系统已升级到19.0.0且熔断是20的Switch主机。
-
-2024.10.12更新atmosphere-1.8.0-prerelease-5717ea6c0（大气层1.8.0预览版），由于hekate和sigpatch未更新，目前只能在Hekate下，用fusee引导（更多-大气层自动识别）进19.0.0系统，然后daybreak降级到18.1.0，才可以通过fss0引导（真实破解系统或者虚拟破解系统）玩破解游戏，大气层原版fusee引导（更多-大气层自动识别）并不支持玩破解游戏。更新Lockpick_RCM.bin--v1.9.13。
+2024.10.13凌晨，更新atmosphere-1.8.0-prerelease-5717ea6c0，hekate_ctcaer_6.2.2_Nyx_1.6.4，由于sigpatch最高只能支持SW18.1.0，所以不能在19.0.0系统里玩破解游戏，只能玩正版游戏，要daybreak降级到18.1.0才可以玩破解游戏，暂时屏蔽大气层原版fusee引导（更多-大气层自动识别，大气层1.7.0以后不支持fusee引导玩破解游戏），更新Lockpick_RCM.bin--v1.9.13。
 
 2024.10.03更新替换Tesla（ovlloader+ovlmenu已同名替换成ultrahand，此次也一样可以覆盖升级，和Tesla一样启动键L+Ddown），更新StatusMonitor.ovl-v1.1.3英文，switchtime.nro--v0.1.5，更新极限超频EOS1.4.4。
 由于替换ultrahand和StatusMonitor.ovl-v1.1.3英文，所以SD卡原config/Tesla-Menu，switch/.overlays/lang/Tesla-Menu，switch/.overlays/lang/StatusMonitor这三个文件夹可删除，不删也没关系。
+
 2024.08.07更新JKSV.nro--08.06.2024。
 
 2024.07.24更新JKSV.nro--07.18.2024，TegraExplorer.bin--v4.2.0。
