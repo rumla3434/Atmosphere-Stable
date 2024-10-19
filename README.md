@@ -1,9 +1,11 @@
-大气层1.8.0pre整合包系统稳定版（更新时间：2024.10.16）
+大气层1.8.0整合包系统稳定版（更新时间：2024.10.19）
 =====
 
 原主页github.com/rumla34作废，改地址为github.com/rumla3434，另一个主页codeberg.org/rumla34不变。
 
-大气层1.8.0pre最高支持NX-19.0.0系统。如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
+大气层1.8.0最高支持NX-19.0.0系统。如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
+
+2024.10.19更新ovlloader-Tesla启动器-1.0.9+，更新sys-clk-EOS.ovl-1.5.0支持大气层1.8.0或以上，只要不覆盖启动设置，这个极限超频只能当普通超频插件使用。更新EdiZon.ovl-1.0.9。虽目前大气层1.8.0还是prerelease，但经过一段时间的测试，和正式版没区别，而且运行nro转nsp前端的工具并不是sigpatch的问题，而是需要新版本的转换工具制作：Menu0.12beta-nro2nsp-FW19。
 
 2024.10.16更新atmosphere-1.8.0-prerelease-c6014b533，更新此版大气层的loader patch（ips和patches.ini），fusee.bin取自gbatemp论坛编译版，支持fusee引导的fs/loader的ips补丁。
 
