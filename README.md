@@ -1,9 +1,11 @@
-大气层1.8.0整合包系统稳定版（更新时间：2024.11.11）
+大气层1.8.0整合包系统稳定版（更新时间：2024.12.09）
 =====
 
 原主页github.com/rumla34作废，改地址为github.com/rumla3434，另一个主页codeberg.org/rumla34不变。
 
 大气层1.8.0最高支持NX-19.0.1系统。如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
+
+2024.12.09更新Z大的ovlsysmodules，EdiZon，StatusMonitor，更新NX-Activity-Log.nro--v1.5.4，Tinfoil.nro--v19.1（自带前端，支持19.0.0+）。
 
 2024.11.11更新Z大的ovlloader，ultrahand，ovlsysmodules，EdiZon，StatusMonitor，NX-Activity-Log.nro，更新linkalho.nro。
 
