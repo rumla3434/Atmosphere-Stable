@@ -1,0 +1,39 @@
+「分享」新人必看的Switch破解游戏安装教程
+
+一、基础常识
+（1）Switch破解游戏安装包分：本体，补丁和DLC，本体对应游戏的TID，补丁对应游戏金手指的BID，先安装本体，再根据是否需要金手指去选择安装补丁，DLC是额外的，根据需要安装。
+（2）Switch破解游戏安装包后缀名有：NSP，XCI，NSZ和XCZ，大气层并不区分以上几种格式，因为安装它们以后就是默认数字版破解游戏，但一定要前端模式进相册的游戏安装工具。
+（3）安装破解游戏一般有USB数据线安装、SD卡上安装、WIFI无线安装，由于SD卡安装受限fat32的不超过4G单文件，WIFI无线安装不稳定和安装速度慢，所以USB线安装是最具有性价比的，且能安装过程中给主机充电。USB数据线安装需要搭配一台windows系统的电脑，usb数据线双C或单C线都可以。
+（4）无论本体，补丁还是DLC都有对应Switch的系统版本，只要大气层一直在更新，就建议日常升级到最新的Switch系统，防止因低版本Switch系统玩破解游戏出现的各种问题。
+（5）建议虚拟系统里设置头像账号能离线绑定任天堂账号，使用相册的linkalho.nro完成绑定，某些破解游戏需要它。
+（6）建议国行机的虚拟系统转成全球系统，使用相册的tencent-switcher-gui.nro完成转换，某些破解游戏也需要它。
+（7）如果某些游戏安装后还出现强制联网的情况，有可能这个游戏资源没有dump好，也有可能这个游戏本身没有单机模式，不能玩破解版。
+
+二、安装工具之一：DBI
+（1）DBI.nro是最佳首选，支持安装SD卡上的安装包，支持MTP功能无需PC端安装软件，虽然也有dbibackend.exe软件，但是并无必要。
+https://github.com/rashevskyv/dbi/releases
+（2）前端模式启动DBI.nro，会进入黑色背景的DBI菜单（如果是直接进相册打开dbi则是蓝色背景的DBI菜单），找到MTP后连上usb数据线即可，在电脑上出现设备Switch，打开后会出现多个盘符，其中5号盘SD card install就是打开它，把电脑硬盘上的游戏安装包拖过去安装。
+（3）注意dbi.config设定中，; Check NCA hash during install，CheckHash=false，不容易安装出错。
+（4）DBI目前开发者只发布俄文版，最新750，但不影响连电脑的MTP功能识别，此外dbi.config配置文件还是英文的，可以自定义，无语言障碍了。而且开发者已发布的英文版658，中文版647都支持19.0.1系统。
+如果想多个语言版本的dbi共存相册，可以除了dbi文件夹之外，再同一层级分别命名不同的文件夹存放，比如dbi-cn，dbi-ru，别忘了dbi.config也要放在一起。
+
+三、安装工具之二：Awoo
+（1）Awoo-Installer等一系同款软件，Awoo不支持MTP且已经停止更新，需要在PC端安装ns-usbloader，但速度比DBI快。
+Awoo，Atmoxl，Tinwoo都是同款，由于不同开发者，所以可任选一个最新的或都共存相册。
+https://github.com/R-YaTian/AtmoXL-Titel-Installer/releases
+https://github.com/mrdude2478/Tinwoo-Release/releases
+https://github.com/Huntereb/Awoo-Installer/releases（停止更新）
+https://github.com/dragonflylee/Awoo-Installer/releases（停止更新）
+https://github.com/dezem/AtmoXL-Titel-Installer/releases（停止更新）
+ns-usbloader
+https://github.com/developersu/ns-usbloader/releases
+（2）同样要前端模式启动Awoo-installer.nro，选通过USB/USB HDD安装，电脑上打开ns-usbloader，选择.NSP文件，但XCI，NSZ等都可以，从电脑硬盘找到下载的游戏安装包，列表里出现后选择“上传到NS”，就可以在Awoo中安装，直到安装游戏完成前，不得断开USB线。
+（3）注意不管是Awoo，Atmoxl还是Tinwoo，第一次使用它的时候，在设置中都要勾选“忽略游戏最低固件版本要求”和取消勾选“安装前验证NCA签名”，以后就不必再勾选了。
+
+四、安装工具之三：Tinfoil
+（1）Tinfoil.nro是黑商店基础平台，需要搭配他人建立的服务器，但本身支持MTP功能。
+https://tinfoil.media/Download#download
+https://tinfoil.io/Download#download
+（2）Tinfoil一般选自动安装前端的版本，每次启动如果联网状态会自动更新数据库信息，不想等待就以飞行模式再打开tinfoil。tinfoil的选项里有个“安装未签名代码”的设定，如果想打开，密码是“上上下下左右左右BA+”。
+（3）Tinfoil的MTP功能连上usb线后电脑出现switch设备，有“安装”的盘符，和DBI一样拖nsp，xci，nsz或xcz过去就能安装游戏了。
+
