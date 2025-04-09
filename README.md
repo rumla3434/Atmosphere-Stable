@@ -5,7 +5,7 @@
 
 大气层1.8.0最高支持NX-19.0.1系统。如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
 
-2025.04.08更新Checkpoint.nro--v3.8.2（无需重新制作前端NSP），NX-Activity-Log.nro--v1.5.5，更新DBI同文件夹下DBI.nro.ru是俄文版DBI779。
+2025.04.08更新Checkpoint.nro--v3.8.2（无需重新制作前端NSP），NX-Activity-Log.nro--v1.5.5（和checkpoint一样必须以前端模式进），更新DBI同文件夹下DBI.nro.ru是俄文版DBI779。
 
 2025.02.28更新wiliwili.nro--v1.5.1，更新DBI同文件夹下DBI.nro.ru是俄文版DBI763，一键清理contents的旧插件和删主题20250228更新。
 
