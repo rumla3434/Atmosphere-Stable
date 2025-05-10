@@ -2,7 +2,9 @@
 
 原主页github.com/rumla34作废，改地址为github.com/rumla3434，另一个主页codeberg.org/rumla34不变。
 
-2025.05.10更新hekate_ctcaer_6.3.0_Nyx_1.7.0汉化版，Lockpick_RCM.bin--v1.9.15，更新sys-clk-EOS.ovl-1.6.0（实际是更新loader.kip支持20.0.1）。
+2025.05.10-2更新sys-clk-EOS.ovl-1.6.0测试发现loader.kip和lsp的内置sigpatch冲突，不能玩破解游戏，所以暂时移除。
+
+2025.05.10更新hekate_ctcaer_6.3.0_Nyx_1.7.0汉化版，Lockpick_RCM.bin--v1.9.15。
 
 2025.05.08更新lsp199308编译的atmosphere-1.9.0-20_support-9dd8269f7-dirty，sigpatch已内置（ES，FS，LOADER，NIM，NIFM内置），替换atmosphere/package3，atmosphere/stratosphere.romfs，bootloader/payloads/fusee.bin这三个文件即可，恢复大气层自动识别fusee.bin引导选项，因为sigpatch内置且最高支持20.0.1，所以虚拟升级20.0.1也能玩破解游戏，也不需要sys-patch插件。更新DBI同文件夹下DBI.nro.ru是俄文版DBI785。
 
