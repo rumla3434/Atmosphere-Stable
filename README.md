@@ -1,6 +1,8 @@
-# 大气层1.9.0整合包系统稳定版（更新时间：2025.05.13）
+# 大气层1.9.0整合包系统稳定版（更新时间：2025.05.17）
 
 原主页github.com/rumla34作废，改地址为github.com/rumla3434，另一个主页codeberg.org/rumla34不变。
+
+2025.05.17根据Hekate630更新hekate_ipl.ini的设置（fss0改成pkg3，删除atmosphere=1，旧标准废弃但不影响继续使用），更新Z大佬的Tesla全套中文插件ovlloader，ovlmenu，ovlsysmodules，EdiZon，StatusMonitor，sys-clk。更新DBI.nro.ru是俄文版DBI788。
 
 2025.05.13更新Z大佬的Tesla全套中文插件ovlloader，ovlmenu，ovlsysmodules，EdiZon，StatusMonitor，sys-clk。更新hekate的汉化nyx.bin文件，更新Goldleaf.nro--v1.1.0，新加AK佬的破解教程合集。
 
@@ -20,7 +22,9 @@
 
 （2）只玩虚拟系统的玩家，只要不更新真实系统到20.0.0或以上，就不需要更新大气层，安心呆在虚拟19.0.1玩游戏。
 
-（3）国行的系统19.0.1或以下的必须通过tencent-switcher-gui.nro插件或者在Tesla的系统模块最下一栏把系统转区成“全球系统”后才能离线升级20.0.0+系统，否则进系统会有2162-0002（0x4a2）变砖错误，尤其是真实系统变砖只能还原NAND备份。
+（3）国行的系统19.0.1或以下的必须通过tencent-switcher-gui.nro插件或者在Tesla的系统模块最下一栏把系统转区成“全球系统”后才能离线升级20.0.0+系统，否则进系统会有2162-0002（0x4a2）变砖错误，AK佬教程巧用带转区的Tesla系统模块实现国行20.0.1系统救砖。
+
+https://www.tekqart.com/thread-420910-1-1.html
 
 （4）已经升级了20.0.1的真实或虚拟系统都没必要降级19.0.1，daybreak降级后容易出现nim（0100000000000025）变砖错误，可以在进虚拟系统switch图标之前按住音量加减的官方恢复模式，进行保留数据系统初始化（快速）后才能进19.0.1。
 
