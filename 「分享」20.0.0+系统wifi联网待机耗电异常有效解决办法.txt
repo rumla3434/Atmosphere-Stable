@@ -1,0 +1,27 @@
+「分享」20.0.0+系统wifi联网待机耗电异常有效解决办法
+
+AK佬之前有个帖子，20.0.0以后，wifi联网状态下会耗电异常，但是正版系统正常联网就没问题，朗姆也同样是猜想系统后台会不断发送服务器数据但是dns保护等原因导致后台不停的发送信息。
+https://www.tekqart.com/thread-419811-1-1.html
+
+据大气层官网的信息，找到了解决办法
+https://github.com/Atmosphere-NX/Atmosphere/issues/2528
+有人推荐这个设置，SD：atmosphere/config/system_settings.ini
+https://github.com/hanai3Bi/Switch-OC-Suite/blob/master/system_settings.md?rgh-link-date=2025-07-09T11%3A28%3A59.000Z
+
+增加了这一段参数
+[ns.notification]
+enable_download_task_list = u8!0x0
+enable_download_ticket = u8!0x0
+enable_network_update = u8!0x0
+enable_random_wait = u8!0x0
+enable_request_on_cold_boot = u8!0x0
+enable_send_rights_usage_status_request = u8!0x0
+enable_sync_elicense_request = u8!0x0
+enable_version_list = u8!0x0
+retry_interval_min = u32!0x7FFFFFFF
+retry_interval_max = u32!0x7FFFFFFF
+version_list_waiting_limit_bias = u32!0x7FFFFFFF
+version_list_waiting_limit_min = u32!0x7FFFFFFF
+
+文本修改好，保存system_settings.ini后退出重新进系统就有效了。没有启动超频，充满电后断开，正常联网wifi待机过夜大概耗电5-6%。
+朗姆经过测试，虽然这个方法比起启动飞行模式过夜待机还是耗电略高一点点，但是比原来的wifi联网待机的过夜是低多了，也就是正常了。
