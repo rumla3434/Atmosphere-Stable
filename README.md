@@ -2,7 +2,7 @@
 
 大气层1.10.0最高支持NX-21.0.0系统。如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
 
-2025.11.20大气层更新1.9.5正式版，更新atmosphere-1.10.0-prerelease-d9fc6e99e，hekate_ctcaer_6.4.1_Nyx_1.8.1汉化版，Sigpatches for Atmosphere 1.10.0（nim未更新，联网有90dns挡在前面不会报错），更新Lockpick_RCM.bin--v1.9.16，更新Z大佬的Ultrahand-Overlay及全套Tesla插件最新版，更新相册Awoo-Installer，Checkpoint，DBI842俄文版，DeepSea-Toolbox，Edizon，Goldleaf，JKSV.nro--11.16.2025，linkalho.nro--v2.0.2修复bug版本。以上都支持21.0.0|AMS 1.10.0
+2025.11.20更新atmosphere-1.10.0-prerelease-d9fc6e99e，hekate_ctcaer_6.4.1_Nyx_1.8.1汉化版，Sigpatches for Atmosphere 1.10.0（nim未更新，联网有90dns挡在前面不会报错），更新Lockpick_RCM.bin--v1.9.16，更新Z大佬的Ultrahand-Overlay及全套Tesla插件最新版，更新相册Awoo-Installer，Checkpoint，DBI842俄文版，DeepSea-Toolbox，Edizon，Goldleaf，JKSV.nro--11.16.2025，linkalho.nro--v2.0.2修复bug版本。以上都支持21.0.0|AMS 1.10.0
 
 相册里的DBI.nro.cn是汉化版DBI810，NX-Activity-Log.nro--v1.5.7，Tinfoil.nro--v20.1，wiliwili.nro--v1.5.2还不支持，会出现报错，其它插件软件都可以在21.0.0系统里正常使用了。
 
