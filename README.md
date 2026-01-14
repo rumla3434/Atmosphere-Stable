@@ -12,4 +12,16 @@
 
 （4）daybreak平刷系统是没问题的，但是如果20.0+以后再降级刷系统后会出现2162-0002的nim（0100000000000025）变砖错误，可以在进系统switch图标之前按住音量加减的官方恢复模式，进行保留数据系统初始化（快速）后才能进，所以要提前备份游戏存档数据，而且初始化以后游戏要重新安装。大气层整合包向下兼容Switch系统，所以降级Switch系统并不需要更换低版本的大气层，而且正版系统升级会熔断更无法使用低版本大气层，请确认SD卡上大气层三件套组件是最新版。
 
+# 原主页github.com/rumla34作废，改地址为github.com/rumla3434，另一个主页codeberg.org/rumla34不变。
+
+https://github.com/rumla3434/Atmosphere-stable/releases
+
+https://codeberg.org/rumla34/Atmosphere-stable/releases
+
+离线升级固件下载地址
+
+https://github.com/rumla3434/NX_Firmware/releases
+
+https://codeberg.org/rumla34/NX-Firmware/releases
+
 <img src="https://github.com/rumla3434/Atmosphere-Stable/blob/master/readme.jpg?raw=true" align="center" width="100%" >
