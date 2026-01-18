@@ -18,10 +18,4 @@ https://github.com/rumla3434/Atmosphere-stable/releases
 
 https://codeberg.org/rumla34/Atmosphere-stable/releases
 
-离线升级固件下载地址
-
-https://github.com/rumla3434/NX_Firmware/releases
-
-https://codeberg.org/rumla34/NX-Firmware/releases
-
 <img src="https://github.com/rumla3434/Atmosphere-Stable/blob/master/readme.jpg?raw=true" align="center" width="100%" >
