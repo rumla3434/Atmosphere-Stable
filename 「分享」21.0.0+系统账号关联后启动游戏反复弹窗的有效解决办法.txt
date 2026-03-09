@@ -1,0 +1,17 @@
+「分享」21.0.0+系统账号关联后启动游戏反复弹窗的有效解决办法
+
+21.0.0以后，如果本地账号关联任天堂账号后，在90dns和隐藏序号后wifi联网下启动游戏图标或第三方工具前端会提示反复弹窗，只能按home取消。正版系统不影响，主要是真实(破解)系统和虚拟(破解)系统出现。如果取消账号关联或者启动飞行模式就不会存在这种问题。
+
+真实系统（有玩正版需求，不想被BAN机的）解决办法是取消90dns和序列号保护，正常联网，或者启动飞行模式。
+虚拟系统不能取消90dns和序列号保护，所以就用带MOD版的linkalho.nro假关联账号（实际上带mod的linkalho它也是自动增加下面这段参数）或者取消账号的假关联。
+
+据大气层官网的信息和tekqart论坛的笑天反馈，也可以推荐这个设置，SD：atmosphere/config/system_settings.ini增加这一段参数
+
+[olsc]
+default_auto_upload_global_setting = u8!0x0
+default_auto_download_global_setting = u8!0x0
+
+参数内容从下面这个资源获得：
+https://github.com/hanai3Bi/Switch-OC-Suite/blob/master/system_settings.md?rgh-link-date=2025-07-09T11%3A28%3A59.000Z
+
+文本修改好，保存system_settings.ini后退出重新进系统就有效了，wifi下启动游戏不再出现反复弹窗。
