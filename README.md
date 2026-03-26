@@ -2,7 +2,7 @@
 
 大气层1.11.0最高支持NX-22.0.0系统，如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
 
-2026.03.26更新非官方atmosphere-1.11.0，更新hekate6.5.2最新和汉化nyx.bin，更新sigpatch的fs，loader（由borntohonk大佬提供的py脚本自制，但是22.0.0的exefs_patches会影响系统黑屏），所以虚拟系统只有降级21.2.0后才能完整的玩破解游戏不会报错。真实系统22.0.0玩正版游戏没问题，tesla也没问题，由于22.0.0破解下目前相册nro软件直接打开会报错，所以新增sphaira.nro重命名后替换根目录hbmenu.nro，便于生成daybreak的前端对虚拟系统进行降级。
+2026.03.26更新非官方atmosphere-1.11.0，更新hekate6.5.2最新和汉化nyx.bin，更新sigpatch的fs，loader（由borntohonk大佬提供的py脚本自制，但是22.0.0的exefs_patches会影响系统黑屏），所以虚拟系统只有降级21.2.0后才能完整的玩破解游戏不会报错。真实系统22.0.0玩正版游戏没问题，tesla也没问题，由于22.0.0破解下目前相册nro软件直接打开会报错，所以新增sphaira.nro重命名后替换根目录hbmenu.nro，便于生成daybreak的前端对虚拟系统进行降级。真实系统安装前端应用会被BAN机！
 
 （1）大气层1.11.0+hekate6.5.2都最高支持22.0.0系统，sigpatch最高支持21.2.0，建议虚拟系统降级21.2.0，进虚拟系统22.0.0后点击相册是sphaira主页，移动到daybreak.nro后按X键呼出菜单，选择安装前端应用后返回桌面，进桌面的daybreak图标进行虚拟系统降级。如果不想生成前端，可直接重命名daybreak.nro为hbmenu.nro后替换SD卡根目录，进相册等于打开daybreak.nro。
 
