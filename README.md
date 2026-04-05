@@ -1,6 +1,8 @@
-# 大气层1.11.0整合包系统稳定版（更新时间：2026.04.04）
+# 大气层1.11.0整合包系统稳定版（更新时间：2026.04.05）
 
 大气层1.11.0最高支持NX-22.0.0系统，如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
+
+2026.04.05更新外置sigpatch 22.0.0（ES，NIM，NIFM）不会进22.0.0系统黑屏，所以重新替换官方大气层1.11.0的atmosphere/package3，atmosphere/stratosphere.romfs两个文件。消除v260404版本因使用内置sigpatch无法在真实破解系统连任天堂服务器的bug，真实正版系统联任天堂服务器和v260404版本无任何区别。更新config/sphaira/config.ini配置默认进一次sphaira后自动替换根目录hbmenu.nro，也可以选项中选择还原hbmenu。
 
 2026.04.04更新官方atmosphere-1.11.0-master-931e3c37f，再更新borntohonk大佬基于官方大气层1.11.0内置sigpatch的版本（替换atmosphere/package3，atmosphere/stratosphere.romfs两个文件），22.0.0系统下相册的NRO工具可直接运行不报错，万能前端也继续可用，新增相册工具sphaira.nro，功能很多，可重命名替换根目录原版hbmenu.nro或sphaira有设置选择退出后自动替换原版hbmenu.nro。为减少整合包压缩体积，便于网络传输，从v260404开始，朗姆采用7zip压缩整合包，其它解压缩软件也支持解压缩7z格式。一键清理contents的旧插件和删主题20260404更新。
 
