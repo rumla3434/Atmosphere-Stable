@@ -1,12 +1,10 @@
-# 大气层1.11.1整合包系统稳定版（更新时间：2026.04.07）
+# 大气层1.11.1整合包系统稳定版（更新时间：2026.04.08）
 
 大气层1.11.1最高支持NX-22.1.0系统，如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
 
+2026.04.08更新官方大气层atmosphere-1.11.1-master-d04c20a04，更新loader patch。
+
 2026.04.07更新非官方atmosphere-1.11.1（替换atmosphere/package3，atmosphere/stratosphere.romfs两个文件）更新sigpatch的es和loader patch，其它patch无需更新，更新hekate6.5.2的汉化文件nyx.bin。如果不急的也可以过1-2天等官方大气层1.11.1正式发布。反正22.0.0和22.1.0系统熔断一样，误升级正版22.1.0的也不影响虚拟22.0.0。
-
-2026.04.05更新外置sigpatch 22.0.0（ES，NIM，NIFM）不会进22.0.0系统黑屏，所以重新替换官方大气层1.11.0的atmosphere/package3，atmosphere/stratosphere.romfs两个文件。消除v260404版本因使用内置sigpatch无法在真实破解系统连任天堂服务器的bug，真实正版系统联任天堂服务器和v260404版本无任何区别。更新config/sphaira/config.ini配置默认进一次sphaira后自动替换根目录hbmenu.nro，也可以选项中选择还原hbmenu。
-
-2026.04.04更新官方atmosphere-1.11.0-master-931e3c37f，再更新borntohonk大佬基于官方大气层1.11.0内置sigpatch的版本（替换atmosphere/package3，atmosphere/stratosphere.romfs两个文件），22.0.0系统下相册的NRO工具可直接运行不报错，万能前端也继续可用，新增相册工具sphaira.nro，功能很多，可重命名替换根目录原版hbmenu.nro或sphaira有设置选择退出后自动替换原版hbmenu.nro。为减少整合包压缩体积，便于网络传输，从v260404开始，朗姆采用7zip压缩整合包，其它解压缩软件也支持解压缩7z格式。一键清理contents的旧插件和删主题20260404更新。
 
 （1）大气层1.11.1+hekate6.5.2+sigpatch都最高支持22.1.0系统。国行的系统19.0.1或以下的必须通过tencent-switcher-gui.nro插件或者在Tesla的系统模块最下一栏把系统转区成“全球系统”后才能离线升级20.0.0+系统，否则进系统会有2162-0002（0x4a2）变砖错误，可启动Tesla菜单，在系统模块里国行按Y键改国际。需要启动Tesla菜单，可Hekate选择usb连电脑打开SD：atmosphere/，在config_templates/复制boot2.flag文件到contents/420000000007E51A/flags/就可以启动Tesla。
 
