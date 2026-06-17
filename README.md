@@ -1,14 +1,10 @@
-# 大气层1.11.1整合包系统稳定版（更新时间：2026.04.29）
+# 大气层1.11.2整合包系统稳定版（更新时间：2026.06.17）
 
-大气层1.11.1最高支持NX-22.1.0系统，如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
+大气层1.11.2最高支持NX-22.5.0系统，如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
 
-2026.04.29更新DBI.nro--v893英文版（同文件夹下translation.bin.cn重命名为translation.bin等于替换成DBI893汉化版），等于DBI多国语言包改成translation.bin替换方式运行。更新wiliwili.nro--v1.6.0，替换linkalho.nro和N-Xplorer.nro。
+2026.06.17更新官方atmosphere-1.11.2-master-5388824be，hekate_ctcaer_6.5.3_Nyx_1.9.3汉化，更新sigpatch（ES，FS和Loader有变动）。更新DBI.nro--v895，Goldleaf.nro，重命名替换新版TegraExplorer-Ext.bin-v4.2.2（TE脚本在SD：scripts/，可根据需要自行增加）。
 
-2026.04.08更新官方大气层atmosphere-1.11.1-master-d04c20a04，更新loader patch。
-
-2026.04.07更新非官方atmosphere-1.11.1（替换atmosphere/package3，atmosphere/stratosphere.romfs两个文件）更新sigpatch的es和loader patch，其它patch无需更新，更新hekate6.5.2的汉化文件nyx.bin。如果不急的也可以过1-2天等官方大气层1.11.1正式发布。反正22.0.0和22.1.0系统熔断一样，误升级正版22.1.0的也不影响虚拟22.0.0。
-
-（1）大气层1.11.1+hekate6.5.2+sigpatch都最高支持22.1.0系统。国行的系统19.0.1或以下的必须通过tencent-switcher-gui.nro插件或者在Tesla的系统模块最下一栏把系统转区成“全球系统”后才能离线升级20.0.0+系统，否则进系统会有2162-0002（0x4a2）变砖错误，可启动Tesla菜单，在系统模块里国行按Y键改国际。需要启动Tesla菜单，可Hekate选择usb连电脑打开SD：atmosphere/，在config_templates/复制boot2.flag文件到contents/420000000007E51A/flags/就可以启动Tesla。
+（1）大气层1.11.2+hekate6.5.3+sigpatch都最高支持22.5.0系统。国行的系统19.0.1或以下的必须通过tencent-switcher-gui.nro插件或者在Tesla的系统模块最下一栏把系统转区成“全球系统”后才能离线升级20.0.0+系统，否则进系统会有2162-0002（0x4a2）变砖错误，可启动Tesla菜单，在系统模块里国行按Y键改国际。需要启动Tesla菜单，可Hekate选择usb连电脑打开SD：atmosphere/，在config_templates/复制boot2.flag文件到contents/420000000007E51A/flags/就可以启动Tesla。
 
 （2）daybreak平刷系统是没问题的，但是如果20.0+以后再降级刷系统后会出现2162-0002的nim（0100000000000025）变砖错误，可以在进系统switch图标之前按住音量加减的官方恢复模式，进行保留数据系统初始化（快速）后才能进，所以要提前备份游戏存档数据，而且初始化以后游戏要重新安装。大气层整合包向下兼容Switch系统，所以降级Switch系统并不需要更换低版本的大气层，而且正版系统升级会熔断更无法使用低版本大气层，请确认SD卡上大气层三件套组件是最新版。
 
