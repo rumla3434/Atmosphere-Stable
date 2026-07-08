@@ -1,8 +1,8 @@
-# 大气层1.11.2整合包系统稳定版（更新时间：2026.06.17）
+# 大气层1.11.2整合包系统稳定版（更新时间：2026.07.08）
 
 大气层1.11.2最高支持NX-22.5.0系统，如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
 
-2026.06.17更新官方atmosphere-1.11.2-master-5388824be，hekate_ctcaer_6.5.3_Nyx_1.9.3汉化，更新sigpatch（ES，FS和Loader有变动）。更新DBI.nro--v895，Goldleaf.nro，重命名替换新版TegraExplorer-Ext.bin-v4.2.2（TE脚本在SD：scripts/，可根据需要自行增加）。
+2026.07.08更新hekate的nyx.bin汉化文件，更新Z大佬的Ultrahand-Overlay及全套Tesla插件，更新Checkpoint.nro--v3.13.0，DBI.nro--v898，DowngradeFixer.bin--v1.0.1，一键清理contents的旧插件和删主题20260708更新。
 
 （1）大气层1.11.2+hekate6.5.3+sigpatch都最高支持22.5.0系统。国行的系统19.0.1或以下的必须通过tencent-switcher-gui.nro插件或者在Tesla的系统模块最下一栏把系统转区成“全球系统”后才能离线升级20.0.0+系统，否则进系统会有2162-0002（0x4a2）变砖错误，可启动Tesla菜单，在系统模块里国行按Y键改国际。需要启动Tesla菜单，可Hekate选择usb连电脑打开SD：atmosphere/，在config_templates/复制boot2.flag文件到contents/420000000007E51A/flags/就可以启动Tesla。
 
