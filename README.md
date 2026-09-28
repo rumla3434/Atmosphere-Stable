@@ -4,9 +4,7 @@
 
 2026.09.28更新官方大气层1.12.0-master-28d6a2e11和loader patch，hekate6.5.4汉化，更新Goldleaf.nro--v1.2.1，新加Warmboot_Extractor.bin-v1.1.0，仅限续航/lite/oled的型号提取warmboot_mariko补丁，修复引导低版本系统休眠死机的bug，非续航型号完全无视它，也无法提取。
 
-# 已知bug：
-
-当真实系统升级23.0.0导致熔断=24的话，续航/lite/oled的型号引导等于或低于22.5.0的虚拟系统会有休眠死机，请删除整合包warmboot_mariko/wb_18.bin，然后重新通过hekate加载Warmboot_Extractor.bin-v1.1.0自动再次提取wb_18.bin即可。或者虚拟系统直接离线刷机升级23.0.0即可解决bug。
+已知bug：当真实系统升级23.0.0导致熔断=24的话，续航/lite/oled的型号引导等于或低于22.5.0的虚拟系统会有休眠死机，请删除整合包warmboot_mariko/wb_18.bin，然后重新通过hekate加载Warmboot_Extractor.bin-v1.1.0自动再次提取wb_18.bin即可。或者虚拟系统直接离线刷机升级23.0.0即可解决bug。
 
 （1）大气层1.12.0+hekate6.5.4+sigpatch都最高支持23.0.0系统。国行的系统19.0.1或以下的必须通过tencent-switcher-gui.nro插件或者在Tesla的系统模块最下一栏把系统转区成“全球系统”后才能离线升级20.0.0+系统，否则进系统会有2162-0002（0x4a2）变砖错误，可启动Tesla菜单，在系统模块里国行按Y键改国际。需要启动Tesla菜单，可Hekate选择usb连电脑打开SD：atmosphere/，在config_templates/复制boot2.flag文件到contents/420000000007E51A/flags/就可以启动Tesla。
 
