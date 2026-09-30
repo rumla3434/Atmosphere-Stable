@@ -2,7 +2,7 @@
 
 大气层1.12.0最高支持NX-23.0.0系统，如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
 
-2026.09.30hekate6.5.4小更新（更新bootloader/sys/l4t/sc7exit_b01.bin一个文件，修复前一个整合包版本续航/lite/oled的机型引导低版本虚拟系统休眠死机的bug）。更新NX-Activity-Log.nro--v1.5.9。
+2026.09.30只是hekate6.5.4小更新（更新bootloader/sys/l4t/sc7exit_b01.bin一个文件，修复前一个整合包版本续航/lite/oled的机型引导低版本虚拟系统休眠死机的bug）。更新NX-Activity-Log.nro--v1.5.9。
 
 2026.09.28更新官方大气层1.12.0-master-28d6a2e11和loader patch，hekate6.5.4汉化，更新Goldleaf.nro--v1.2.1，新加Warmboot_Extractor.bin-v1.1.0，仅限续航/lite/oled的型号提取warmboot_mariko补丁，修复引导低版本系统休眠死机的bug，非续航型号完全无视它，也无法提取。已知bug：当真实系统升级23.0.0导致熔断=24的话，续航/lite/oled的型号引导等于或低于22.5.0的虚拟系统会有休眠死机，请删除整合包warmboot_mariko/wb_18.bin，然后重新通过hekate加载Warmboot_Extractor.bin-v1.1.0自动再次提取wb_18.bin即可。或者虚拟系统直接离线刷机升级23.0.0即可解决bug。
 
