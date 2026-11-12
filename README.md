@@ -2,7 +2,7 @@
 
 大气层1.12.2最高支持NX-23.5.0系统，如果你一直使用我发布的包，以后的更新中没有特别的提醒，都是直接覆盖就完成大气层文件的升级。
 
-2026.11.12更新hhekate_ctcaer_6.5.5_Nyx_1.9.5汉化。
+2026.11.12更新hekate_ctcaer_6.5.5_Nyx_1.9.5汉化。
 
 2026.11.11更新官方大气层1.12.2-master-4e3f37038和sigpatch（FS、NIM和Loader有变动），更新熔断25的wb_19.bin补丁，更新StatusMonitor.ovl，更新sphaira.nro--v1.0.9和DBI.nro--v921。目前Hekate没更新，需要等1-2天，现在虚拟系统升级到23.5.0，可以开机hekate中选择payload-fusee.bin进入虚拟系统23.5.0，然后daybreak降级到23.0.1即可，不影响玩破解游戏。真实系统玩正版游戏也同理，可以使用插件，但23.5.0目前只能玩正版游戏。遇到引导低版本虚拟系统出现缺少warmboot_mariko补丁的，可以加载Warmboot_Extractor.bin重新提取wb_19.bin。
 
